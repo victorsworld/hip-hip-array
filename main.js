@@ -61,7 +61,7 @@ const students = [
   console.log("\n");
   console.log("Challenge 5");
   // Challenge 5
-  // Remove two values from the beginning and one value from the end of the following array, simply by deleting them in the following line. Then console.log out each value individually.
+  // Remove two values from the beginning and one value from the end of the following array, using pop and shift.  Then console.log out each value individually.
   const symmetricalCapitals = ['A', 'H', 'I', 'M', 'O', 'T', 'U', 'V', 'W', 'X', 'Y'];
   // Challenge 5 Code
     
@@ -70,7 +70,7 @@ const students = [
   console.log("\n");
   console.log("Challenge 6");
   // Challenge 6
-  // Add a value (your choice!) to the start of the following array and two values (of your choice) to the end simply by adding them in the following line, and then console.log out each value individually.
+  // Add a value (your choice!) to the start of the following array and two values (of your choice) using push and unshift. Then console.log out each value individually.
   const fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13];
   // Challenge 6 Code
   
@@ -102,20 +102,11 @@ const students = [
   // Challenge 9
   // Loop through the `students` array from Challenge 1, starting at index 3 and ending at index 10 (INCLUSIVE), logging out each value individually.
   // Challenge 9 Code
-  
-  
+
+
+
   console.log("\n");
   console.log("Challenge 10");
-  // Challenge 10
-  // Loop through the `students` array from Challenge 1, making a COPY of the array , starting at index 3 and ending at index 10 (INCLUSIVE). This is very similar to string building; create a new array, loop through the old one, and put values from the original in the new one. Then log out each value of the copy indivudally.
-  // Do NOT use slice, you will be using that for the next challenge!
-  // Challenge 10 Code
-
-
-
-
-  console.log("\n");
-  console.log("Challenge 11");
   // Challenge 11
   // Make a COPY of the `students` array *using .slice*, starting at index 3 and ending at index 10 (INCLUSIVE), then log out each value of the copy individually. THEN log out each value of the original array. Notice that the original array didn't get any values taken out of it, because `slice` does NOT modify the original array.
   // Challenge 11 Code
@@ -124,7 +115,7 @@ const students = [
 
 
   console.log("\n");
-  console.log("Challenge 12");
+  console.log("Challenge 11");
   // Challenge 12
   // Pull the items at indices 4-6 (inclusive) from the following array using .splice (NOT .slice!), then console.log out each item from the ORIGINAL array. Note that .splice DOES change the original array.
   const dinosaurs = ['Velociraptor', 'T-Rex', 'Stegosaurus', 'Triceratops', 'Dimetrodon', 'Allosaur', 'Spinosaurus', 'Gigantosaur']
@@ -134,7 +125,7 @@ const students = [
   
   
   console.log("\n");
-  console.log("Challenge 13");
+  console.log("Challenge 12");
   // Challenge 13
   // Use .join to change the dinosaur strings from the above array into one string with a '*' string as the "separator". Then console.log out that string.
   // Challenge 13 Code
@@ -144,7 +135,7 @@ const students = [
   
   console.log("\n");
 
-  console.log("Challenge 14");
+  console.log("Challenge 13");
   // Challenge 14
   // Use .reverse to reverse the dinosaur array and then log out the original array. .reverse DOES change the original array.
   // Challenge 14 Code
@@ -153,7 +144,7 @@ const students = [
 
   
   console.log("\n");
-  console.log("Challenge 15");
+  console.log("Challenge 14");
   // Challenge 15
   // Create two new arrays.
   // Use .concat to combine those two arrays into a NEW array you make (.concat RETURNS an array). Then console.log out each value of that new array individually. Now console.log both the primaries and secondaries arrays, noting that .concat does NOT mutate the original arrays.
