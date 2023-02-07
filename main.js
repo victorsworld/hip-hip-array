@@ -61,7 +61,7 @@ const students = [
   console.log("\n");
   console.log("Challenge 5");
   // Challenge 5
-  // Remove two values from the beginning and one value from the end of the following array, using pop and shift.  Then console.log out each value individually.
+  // Remove two values from the beginning and one value from the end of the following array, using pop and shift.  Then console.log out each value in the array individually.
   const symmetricalCapitals = ['A', 'H', 'I', 'M', 'O', 'T', 'U', 'V', 'W', 'X', 'Y'];
   // Challenge 5 Code
     
@@ -70,7 +70,7 @@ const students = [
   console.log("\n");
   console.log("Challenge 6");
   // Challenge 6
-  // Add a value (your choice!) to the start of the following array and two values (of your choice) using push and unshift. Then console.log out each value individually.
+  // Add a value (your choice!) to the start of the following array and two values (of your choice) using push and unshift. Then console.log out each value in the array individually.
   const fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13];
   // Challenge 6 Code
   
